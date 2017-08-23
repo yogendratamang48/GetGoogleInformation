@@ -27,8 +27,8 @@ namespace FirstMVC.Controllers
         public async Task<GoogleUserInfo> GetGoogleData(string code)
         {
           var gmailAuth=new GmailAuth();
-          gmailAuth.client_id="680030061557-qi2evaas38r8hukebnetkcmpftdb5ods.apps.googleusercontent.com";
-          gmailAuth.client_secret="ma8kNs7yD32lfJoZURDPt8Hp";
+          gmailAuth.client_id="client_id";
+          gmailAuth.client_secret="client_secret";
           gmailAuth.auth_uri="https://accounts.google.com/o/oauth2/auth";
           gmailAuth.token_uri="https://accounts.google.com/o/oauth2/token";
           var domainName="http://localhost:5000";
@@ -90,8 +90,8 @@ return null;
         {
         
           var gmailAuth=new GmailAuth();
-          gmailAuth.client_id="680030061557-qi2evaas38r8hukebnetkcmpftdb5ods.apps.googleusercontent.com";
-          gmailAuth.client_secret="ma8kNs7yD32lfJoZURDPt8Hp";
+          gmailAuth.client_id="client_id";
+          gmailAuth.client_secret="client_secret";
           gmailAuth.auth_uri="https://accounts.google.com/o/oauth2/auth";
           gmailAuth.token_uri="https://accounts.google.com/o/oauth2/token";
           var domainName="http://localhost:5000";
